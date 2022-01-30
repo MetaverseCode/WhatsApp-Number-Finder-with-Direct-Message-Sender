@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="352dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:hint="Type number"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:translationY="-100dp" />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="350dp"
+        android:layout_height="111dp"
+        android:hint="Message"
+        android:translationY="-80dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="206dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="@color/orange"
+        android:hint="Search And Send"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationY="-10dp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="342dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:text="https://wa.me/91"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Clear" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Made By Suraj"
+        android:textAlignment="center"
+        android:translationY="50dp"
+        android:textSize="30sp" />
+
+</LinearLayout>
